@@ -305,9 +305,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 668112995543712153, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
-      propertyPath: gridSize
-      value: 10
+    - target: {fileID: 1917026298, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
+      propertyPath: m_Text
+      value: 0,0
       objectReference: {fileID: 0}
     - target: {fileID: 3405761690490419355, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
       propertyPath: m_Name
@@ -356,6 +356,18 @@ PrefabInstance:
     - target: {fileID: 7411686301399289112, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411686301399289112, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411686301399289112, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411686301399289112, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dfa4df55d153414f804fe3fe73b2b8d, type: 3}
