@@ -2,7 +2,10 @@
 
 public class Waypoint : MonoBehaviour
 {
+    public bool isExplored = false; // ok as is a data class
+
     Vector2Int gridPos;
+
     const int gridSize = 10;
 
     public int GetGridSize()
