@@ -2,6 +2,8 @@
 
 public class EnemyDamage : MonoBehaviour
 {
+    [SerializeField] int hitPoints = 10;
+
 
     // Start is called before the first frame update
     void Start()
@@ -11,6 +13,21 @@ public class EnemyDamage : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        print("I'm hit!");
+        ProcessHit();
+        if (hitPoints <= 1)
+        {
+            KillEnemy();
+        }
+    }
+
+    void ProcessHit()
+    {
+        hitPoints = hitPoints - 1;
+        print("Current hitpoints are " + hitPoints);
+    }
+
+    private void KillEnemy()
+    {
+        Destroy(gameObject);
     }
 }
