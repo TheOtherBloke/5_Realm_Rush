@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +21,5 @@ public class EnemyMovement : MonoBehaviour
             yield return new WaitForSeconds(2f);
         }
         print("Ending Patrol");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
